@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Example1 from './components/Example1';
+import Example2 from './components/Example2';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Example1 />
+        <Example2 />
       </header>
     </div>
   );
